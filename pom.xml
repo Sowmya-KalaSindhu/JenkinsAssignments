@@ -191,13 +191,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-
-        </plugins>
-		<finalName>addressbook</finalName>
-    </build>
-	<build>
-    <plugins>
-        <plugin>
+		 <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>0.8.10</version>
@@ -219,11 +213,11 @@
                 </execution>
             </executions>
         </plugin>
-    </plugins>
-</build>
 
+        </plugins>
+		<finalName>addressbook</finalName>
+    </build>
 	
-	  
     <reporting>
     <plugins>
       <plugin>
